@@ -1,0 +1,120 @@
+
+
+
+
+def convert(x):
+	if isupper(x) and x == 'A':
+		x = 1
+	elif islower(x) and x=='a':
+		x = -1
+	elif isupper(x) and x == 'B':
+		x = 2
+	elif islower(x) and x=='b':
+		x = -2
+	elif isupper(x) and x == 'C':
+		x = 3
+	elif islower(x) and x=='c':
+		x = -3	 	 
+	elif isupper(x) and x == 'D':
+		x = 4
+	elif islower(x) and x=='d':
+		x = -4
+	elif isupper(x) and x == 'E':
+		x = 5
+	elif islower(x) and x=='e':
+		x = -5
+	elif isupper(x) and x == 'F':
+		x = 6
+	elif islower(x) and x=='f':
+		x = -6
+	elif isupper(x) and x == 'G':
+		x = 7
+	elif islower(x) and x=='g':
+		x = -7
+	elif isupper(x) and x == 'H':
+		x = 8
+	elif islower(x) and x=='h':
+		x = -8
+	elif isupper(x) and x == 'I':
+		x = 9
+	elif islower(x) and x=='i':
+		x = -9
+	elif isupper(x) and x == 'J':
+		x = 10
+	elif islower(x) and x=='j':
+		x = -10
+	elif isupper(x) and x == 'K':
+		x = 11
+	elif islower(x) and x=='k':
+		x = -11
+	elif isupper(x) and x == 'L':
+		x = 12
+	elif islower(x) and x=='l':
+		x = -12
+	elif isupper(x) and x == 'M':
+		x = 13
+	elif islower(x) and x=='m':
+		x = -13
+	elif isupper(x) and x == 'N':
+		x = 14
+	elif islower(x) and x=='n':
+		x = -14
+	elif isupper(x) and x == 'O':
+		x = 15
+	elif islower(x) and x=='o':
+		x = -15
+	elif isupper(x) and x == 'P':
+		x = 16
+	elif islower(x) and x=='p':
+		x = -16
+	elif isupper(x) and x == 'Q':
+		x = 17
+	elif islower(x) and x=='q':
+		x = -17
+	elif isupper(x) and x == 'R':
+		x = 18
+	elif islower(x) and x=='r':
+		x = -18
+	elif isupper(x) and x == 'S':
+		x = 19
+	elif islower(x) and x=='s':
+		x = -19
+	elif isupper(x) and x == 'T':
+		x = 20
+	elif islower(x) and x=='t':
+		x = -20
+	elif isupper(x) and x == 'U':
+		x = 21
+	elif islower(x) and x=='u':
+		x = -21
+	elif isupper(x) and x == 'V':
+		x = 22
+	elif islower(x) and x=='v':
+		x = -22
+	elif isupper(x) and x == 'W':
+		x = 23
+	elif islower(x) and x=='w':
+		x = -23
+	elif isupper(x) and x == 'X':
+		x = 24
+	elif islower(x) and x=='x':
+		x = -24
+	elif isupper(x) and x == 'Y':
+		x = 25
+	elif islower(x) and x=='y':
+		x = -25
+	elif isupper(x) and x == 'Z':
+		x = 26
+	elif islower(x) and x=='z':
+		x = -27
+	elif x=='.':
+		x = 0
+	return x
+
+def transformMatrix(matrix):
+	out = [][]
+	
+	for i in range(0, len(matrix)):
+		for j in range(0,len(matrix[i])):
+				out = convert(matrix[i][j])
+	
